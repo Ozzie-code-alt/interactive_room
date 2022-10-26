@@ -6,7 +6,7 @@ const hour =document.querySelector("[data-hour]"); /* if using a class*/
 function setClock(){
 const sec =document.querySelector("[data-second]"); 
 const currentDate = new Date()
-let Seconds = currentDate.getSeconds() % 60
+let Seconds = currentDate.getSeconds() / 60
 
 console.log(Seconds)
 // const Hour = currentDate.getHours()
